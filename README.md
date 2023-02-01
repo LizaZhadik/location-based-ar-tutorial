@@ -1,6 +1,8 @@
 # Location Based AR Tutorial - AR.js v2.0.x
 
 Live URL: [https://lizazhadik.github.io/location-based-ar-tutorial/static-on-html](https://lizazhadik.github.io/location-based-ar-tutorial/static-on-html)
+Live URL2: [https://lizazhadik.github.io/location-based-ar-tutorial/static-places](https://lizazhadik.github.io/location-based-ar-tutorial/static-places)
+
 
 <img src="https://miro.medium.com/max/2476/1*IymrgzbXR9j7TCqT3GSLNg.png">
 
