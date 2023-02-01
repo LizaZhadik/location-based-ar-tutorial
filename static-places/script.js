@@ -15,9 +15,7 @@ function staticLoadPlaces() {
                 // decomment the following and add coordinates:
                 lat: 48.187685,
                 lng: 11.275065,
-                
-  
-      
+               
             },
         },
     ];
@@ -35,20 +33,6 @@ var models = [
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
         info: 'Articuno, Lv. 80, HP 100/100',
-    },
-    {
-        url: './assets/dragonite/scene.gltf',
-        scale: '0.08 0.08 0.08',
-        rotation: '0 180 0',
-        info: 'Dragonite, Lv. 99, HP 150/150',
-    },
-    
-        {
-        url: './assets/man/scene.gltf',
-        scale: '0.08 0.08 0.08',
-        rotation: '0 180 0',
-        info: 'Dragonite, Lv. 99, HP 150/150',
-    },
 ];
 
 var modelIndex = 0;
