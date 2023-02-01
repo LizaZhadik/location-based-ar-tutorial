@@ -10,7 +10,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Pokèmon',
+            name: 'Man',
             location: {
                 // decomment the following and add coordinates:
                 lat: 48.187685,
@@ -25,9 +25,9 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/magnemite/scene.gltf',
+        url: './assets/man/scene.gltf',
         scale: '0.5 0.5 0.5',
-        info: 'Magnemite, Lv. 5, HP 10/10',
+        info: 'Man!!',
         rotation: '0 180 0',
     },
     {
