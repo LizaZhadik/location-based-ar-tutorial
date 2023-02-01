@@ -1,11 +1,11 @@
 
-window.onload = () => {
-    const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '﹖';
+//window.onload = () => {
+//    const button = document.querySelector('button[data-action="change"]');
+//    button.innerText = '﹖';
 
-    let places = staticLoadPlaces();
-    renderPlaces(places);
-};
+ //   let places = staticLoadPlaces();
+ //   renderPlaces(places);
+//};
 
 function staticLoadPlaces() {
     return [
