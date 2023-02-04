@@ -16,20 +16,19 @@
       arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;"
     >
       <!-- <!Elizaveta Zhadik> -->
-            
+      
+      <!-- animation="property: rotation; to: 0 360 0; loop: true; easing:linear; dur: 45000;" -->
        <!-----Man ----->
    
-         <a-entity
-        gps-entity-place="latitude: 48.187682; longitude: 11.275066;"
-        gltf-model="./assets/man/scene.gltf"
-        rotation="90 0 90"
-        animation-mixer
-        scale="10 10 10"
-         />       
-  
+   
+       <a-gltf-model
+       gps-entity-place="latitude: 48.187680; longitude: 11.275066;"
+       gltf-model="./assets/man/scene.gltf"
+       rotation="0 180 0"
+       animation-mixer
+       scale="0.01 0.01 0.01"
+       ></a-gltf-model>
 
-
-       
       <a-camera gps-camera="maxDistance: 1000;" rotation-reader> </a-camera>
     </a-scene>
   </body>
